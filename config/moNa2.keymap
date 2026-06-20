@@ -70,7 +70,7 @@
 &mt RCTRL Q     &trans     &trans  &lt 7 R                &trans                                                         &trans       &lt 7 U  &trans  &trans  &mt RCTRL P
 &mt LEFT_WIN A  &trans     &trans  &lt 7 F                &trans                                        &trans           &trans       &lt 7 J  &trans  &trans  &mt RIGHT_WIN SEMI
 &trans          &trans     &trans  &lt 7 V                &trans           &kp LC(LA(A))                &trans           &trans       &lt 7 M  &trans  &trans  &trans
-&trans          &kp LCTRL  &trans  &lt 3 INTERNATIONAL_4  &mt LCTRL SPACE  &lt 5 LC(INTERNATIONAL_5)    &lt 5 BACKSPACE  &lt 3 ENTER                           &trans
+&trans          &kp LCTRL  &trans  &lt 3 INTERNATIONAL_5  &mt LCTRL SPACE  &lt 5 LC(INTERNATIONAL_4)    &lt 5 BACKSPACE  &lt 3 ENTER                           &trans
             >;
 
             sensor-bindings =
