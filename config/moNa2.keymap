@@ -67,10 +67,10 @@
 
         windows {
             bindings = <
-&mt RCTRL Q     &trans     &trans  &lt 7 R      &trans                                               &trans       &lt 7 U  &trans  &trans  &mt RCTRL P
-&mt LEFT_WIN A  &trans     &trans  &lt 7 F      &trans                              &trans           &trans       &lt 7 J  &trans  &trans  &mt RIGHT_WIN SEMI
-&trans          &trans     &trans  &lt 7 V      &trans           &kp LC(LA(A))      &trans           &trans       &lt 7 M  &trans  &trans  &trans
-&trans          &kp LCTRL  &trans  &lt 3 LANG1  &mt LCTRL SPACE  &lt 5 LC(LANG2)    &lt 5 BACKSPACE  &lt 3 ENTER                           &trans
+&mt RCTRL Q     &trans     &trans  &lt 7 R                &trans                                                         &trans       &lt 7 U  &trans  &trans  &mt RCTRL P
+&mt LEFT_WIN A  &trans     &trans  &lt 7 F                &trans                                        &trans           &trans       &lt 7 J  &trans  &trans  &mt RIGHT_WIN SEMI
+&trans          &trans     &trans  &lt 7 V                &trans           &kp LC(LA(A))                &trans           &trans       &lt 7 M  &trans  &trans  &trans
+&trans          &kp LCTRL  &trans  &lt 3 INTERNATIONAL_4  &mt LCTRL SPACE  &lt 5 LC(INTERNATIONAL_5)    &lt 5 BACKSPACE  &lt 3 ENTER                           &trans
             >;
 
             sensor-bindings =
@@ -113,10 +113,10 @@
 
         numbers_win {
             bindings = <
-&mt LCTRL PERIOD    &trans  &trans  &trans  &trans                    &trans     &trans  &trans  &trans                &mt RCTRL ESCAPE
-&mt LEFT_WIN COMMA  &trans  &trans  &trans  &trans            &trans  &kp LC(A)  &trans  &trans  &trans                &mt RIGHT_COMMAND DELETE
-&trans              &trans  &trans  &trans  &trans  &trans    &trans  &kp LC(E)  &trans  &trans  &kp LS(LG(NUMBER_4))  &trans
-&trans              &trans  &trans  &trans  &trans  &trans    &trans  &trans                                           &trans
+&mt LCTRL PERIOD    &trans  &trans  &trans  &trans                    &trans     &trans  &trans  &trans         &mt RCTRL ESCAPE
+&mt LEFT_WIN COMMA  &trans  &trans  &trans  &trans            &trans  &kp LC(A)  &trans  &trans  &trans         &mt RIGHT_COMMAND DELETE
+&trans              &trans  &trans  &trans  &trans  &trans    &trans  &kp LC(E)  &trans  &trans  &kp LS(LG(S))  &trans
+&trans              &trans  &trans  &trans  &trans  &trans    &trans  &trans                                    &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
