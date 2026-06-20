@@ -12,6 +12,12 @@
     quick-tap-ms = <0>;
 };
 
+&lt {
+    tapping-term-ms = <300>;
+    flavor = "tap-preferred";
+    quick-tap-ms = <0>;
+};
+
 / {
     combos { compatible = "zmk,combos"; };
 
@@ -42,12 +48,6 @@
             tap-ms = <20>;
         };
     };
-
-    &lt {
-        tapping-term-ms = <300>;
-        flavor = "tap-preffered";
-        quick-tap-ms = <0>;
-    }
 
     keymap {
         compatible = "zmk,keymap";
