@@ -43,6 +43,12 @@
         };
     };
 
+    &lt {
+        tapping-term-ms = <300>;
+        flavor = "tap-preffered";
+        quick-tap-ms = <0>;
+    }
+
     keymap {
         compatible = "zmk,keymap";
 
