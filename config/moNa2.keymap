@@ -142,7 +142,7 @@
 &kp ESCAPE      &kp F7  &kp F8  &kp F9  &kp F10                                         &none                  &none  &none      &none            &none
 &kp TAB         &kp F4  &kp F5  &kp F6  &kp F11                   &kp LC(LG(Q))         &none                  &none  &kp LG(W)  &kp LS(LC(TAB))  &kp LC(TAB)
 &kp LEFT_SHIFT  &kp F1  &kp F2  &kp F3  &kp F12  &kp LG(LA(A))    &none                 &none                  &none  &mkp MB3   &kp LG(W)        &mt RIGHT_SHIFT LG(M)
-&trans          &trans  &trans  &trans  &trans   &trans           &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)                                     &none
+&trans          &trans  &trans  &trans  &trans   &trans           &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)                                     &kp LG(LS(T))
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -153,7 +153,7 @@
 &kp ESCAPE      &kp F7  &kp F8  &kp F9  &kp F10                                 &none          &none  &none      &none            &none
 &kp TAB         &kp F4  &kp F5  &kp F6  &kp F11                   &kp LG(L)     &none          &none  &kp LC(W)  &kp LS(LC(TAB))  &kp LC(TAB)
 &kp LEFT_SHIFT  &kp F1  &kp F2  &kp F3  &kp F12  &kp LC(LA(A))    &none         &none          &none  &mkp MB3   &kp LA(F4)       &mt RIGHT_SHIFT LG(DOWN)
-&trans          &trans  &trans  &trans  &trans   &trans           &kp LA(LEFT)  &kp LA(RIGHT)                                     &none
+&trans          &trans  &trans  &trans  &trans   &trans           &kp LA(LEFT)  &kp LA(RIGHT)                                     &kp LC(LS(T))
             >;
 
             sensor-bindings = <&scroll_up_down>;
