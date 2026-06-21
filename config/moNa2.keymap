@@ -152,7 +152,7 @@
             bindings = <
 &kp ESCAPE      &kp F7  &kp F8  &kp F9  &kp F10                                 &none          &none  &none      &none            &none
 &kp TAB         &kp F4  &kp F5  &kp F6  &kp F11                   &none         &none          &none  &kp LC(W)  &kp LS(LC(TAB))  &kp LC(TAB)
-&kp LEFT_SHIFT  &kp F1  &kp F2  &kp F3  &kp F12  &kp LC(LA(A))    &none         &none          &none  &mkp MB3   &kp LC(W)        &mt RIGHT_SHIFT LG(DOWN)
+&kp LEFT_SHIFT  &kp F1  &kp F2  &kp F3  &kp F12  &kp LC(LA(A))    &none         &none          &none  &mkp MB3   &kp LA(F4)       &mt RIGHT_SHIFT LG(DOWN)
 &kp LG(L)       &none   &none   &trans  &trans   &trans           &kp LA(LEFT)  &kp LA(RIGHT)                                     &none
             >;
 
