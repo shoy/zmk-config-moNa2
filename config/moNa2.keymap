@@ -67,10 +67,10 @@
 
         windows {
             bindings = <
-&mt RCTRL Q     &trans     &trans  &lt 7 R           &trans                                                    &trans       &lt 7 U  &trans  &trans  &mt RCTRL P
-&mt LEFT_WIN A  &trans     &trans  &lt 7 F           &trans                                   &trans           &trans       &lt 7 J  &trans  &trans  &mt RIGHT_WIN SEMI
-&trans          &trans     &trans  &lt 7 V           &trans           &kp LC(LA(A))           &trans           &trans       &lt 7 M  &trans  &trans  &trans
-&trans          &kp LCTRL  &trans  &lt 3 LANGUAGE_1  &mt LCTRL SPACE  &lt 5 LC(LANGUAGE_2)    &lt 5 BACKSPACE  &lt 3 ENTER                           &trans
+&mt RCTRL Q     &trans     &trans  &lt 7 R           &trans                                                &trans       &lt 7 U  &trans  &trans  &mt RCTRL P
+&mt LEFT_WIN A  &trans     &trans  &lt 7 F           &trans                               &trans           &trans       &lt 7 J  &trans  &trans  &mt RIGHT_WIN SEMI
+&trans          &trans     &trans  &lt 7 V           &trans           &kp LC(LA(A))       &trans           &trans       &lt 7 M  &trans  &trans  &trans
+&trans          &kp LCTRL  &trans  &lt 3 LANGUAGE_1  &mt LCTRL SPACE  &lt 5 LANGUAGE_2    &lt 5 BACKSPACE  &lt 3 ENTER                           &trans
             >;
 
             sensor-bindings =
