@@ -117,10 +117,10 @@
 
         numbers {
             bindings = <
-&mt LEFT_WIN PERIOD         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS                    &none      &kp PAGE_DOWN        &kp UP_ARROW     &kp PAGE_UP           &mt RIGHT_WIN ESCAPE
-&mt LCTRL COMMA             &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SLASH            &none   &kp LC(A)  &kp LEFT             &kp DOWN         &kp RIGHT             &mt RCTRL DELETE
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp COLON  &none     &none   &kp LC(E)  &kp LG(PRINTSCREEN)  &kp PRINTSCREEN  &kp LS(LG(NUMBER_4))  &kp RSHIFT
-&kp ENTER                   &none            &none            &trans           &trans     &trans    &trans  &trans                                                                 &kp RIGHT_ALT
+&mt LEFT_WIN PERIOD      &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp MINUS                    &none      &kp PAGE_DOWN        &kp UP_ARROW     &kp PAGE_UP           &mt RIGHT_WIN ESCAPE
+&mt LCTRL COMMA          &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6  &kp SLASH            &none   &kp LC(A)  &kp LEFT             &kp DOWN         &kp RIGHT             &mt RCTRL DELETE
+&mt LEFT_SHIFT NUMBER_0  &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp COLON  &none     &none   &kp LC(E)  &kp LG(PRINTSCREEN)  &kp PRINTSCREEN  &kp LS(LG(NUMBER_4))  &kp RSHIFT
+&kp ENTER                &kp BACKSPACE  &none         &trans        &trans     &trans    &trans  &trans                                                                 &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -128,10 +128,10 @@
 
         numbers_win {
             bindings = <
-&mt LCTRL PERIOD            &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS                    &none      &kp PAGE_DOWN        &kp UP_ARROW     &kp PAGE_UP    &mt RCTRL ESCAPE
-&mt LEFT_WIN COMMA          &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SLASH            &none   &kp LC(A)  &kp LEFT             &kp DOWN         &kp RIGHT      &mt RIGHT_WIN DELETE
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp COLON  &none     &none   &kp LC(E)  &kp LG(PRINTSCREEN)  &kp PRINTSCREEN  &kp LS(LG(S))  &kp RSHIFT
-&kp ENTER                   &none            &none            &trans           &trans     &trans    &trans  &trans                                                          &kp RIGHT_ALT
+&mt LCTRL PERIOD         &kp NUMBER_7   &kp NUMBER_8  &kp NUMBER_9  &kp MINUS                    &none      &kp PAGE_DOWN        &kp UP_ARROW     &kp PAGE_UP    &mt RCTRL ESCAPE
+&mt LEFT_WIN COMMA       &kp NUMBER_4   &kp NUMBER_5  &kp NUMBER_6  &kp SLASH            &none   &kp LC(A)  &kp LEFT             &kp DOWN         &kp RIGHT      &mt RIGHT_WIN DELETE
+&mt LEFT_SHIFT NUMBER_0  &kp NUMBER_1   &kp NUMBER_2  &kp NUMBER_3  &kp COLON  &none     &none   &kp LC(E)  &kp LG(PRINTSCREEN)  &kp PRINTSCREEN  &kp LS(LG(S))  &kp RSHIFT
+&kp ENTER                &kp BACKSPACE  &none         &trans        &trans     &trans    &trans  &trans                                                          &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&scroll_up_down>;
