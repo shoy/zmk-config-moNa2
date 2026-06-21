@@ -84,7 +84,7 @@
             bindings = <
 &mt RCTRL Q     &trans     &trans  &lt 7 R           &trans                                                &trans       &lt 7 U  &trans  &trans  &mt RCTRL P
 &mt LEFT_WIN A  &trans     &trans  &lt 7 F           &trans                               &trans           &trans       &lt 7 J  &trans  &trans  &mt RIGHT_WIN SEMI
-&trans          &trans     &trans  &lt 7 V           &trans           &none               &trans           &trans       &lt 7 M  &trans  &trans  &trans
+&trans          &trans     &trans  &lt 7 V           &trans           &trans              &trans           &trans       &lt 7 M  &trans  &trans  &trans
 &trans          &kp LCTRL  &trans  &lt 3 LANGUAGE_1  &mt LCTRL SPACE  &lt 5 LANGUAGE_2    &lt 5 BACKSPACE  &lt 3 ENTER                           &trans
             >;
 
@@ -97,7 +97,7 @@
             bindings = <
 &mt LEFT_WIN EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT                    &kp CARET         &kp AMPERSAND      &kp ASTERISK  &kp LEFT_PARENTHESIS  &mt RIGHT_WIN RIGHT_PARENTHESIS
 &kp LCTRL                 &none        &none     &none       &none                  &none   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS     &kp EQUAL             &mt RCTRL SQT
-&kp LEFT_SHIFT            &none        &none     &none       &none        &none     &none   &kp GRAVE         &kp BACKSLASH      &kp COMMA     &kp PERIOD            &mt RIGHT_SHIFT SLASH
+&kp LEFT_SHIFT            &kp LG(F13)  &kp F13   &none       &none        &none     &none   &kp GRAVE         &kp BACKSLASH      &kp COMMA     &kp PERIOD            &mt RIGHT_SHIFT SLASH
 &kp LEFT_ALT              &none        &none     &trans      &trans       &trans    &trans  &trans                                                                   &kp RIGHT_ALT
             >;
 
@@ -106,10 +106,10 @@
 
         signs_win {
             bindings = <
-&mt RCTRL EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT                    &kp CARET         &kp AMPERSAND      &kp ASTERISK  &kp LEFT_PARENTHESIS  &mt RCTRL RIGHT_PARENTHESIS
-&kp LEFT_WIN           &none        &none     &none       &none                  &none   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS     &kp EQUAL             &mt RIGHT_WIN SQT
-&kp LEFT_SHIFT         &none        &none     &none       &none        &none     &none   &kp GRAVE         &kp BACKSLASH      &kp COMMA     &kp PERIOD            &mt RIGHT_SHIFT SLASH
-&kp LEFT_ALT           &none        &none     &trans      &trans       &trans    &trans  &trans                                                                   &kp RIGHT_ALT
+&mt RCTRL EXCLAMATION  &kp AT_SIGN           &kp HASH              &kp DOLLAR  &kp PERCENT                    &kp CARET         &kp AMPERSAND      &kp ASTERISK  &kp LEFT_PARENTHESIS  &mt RCTRL RIGHT_PARENTHESIS
+&kp LEFT_WIN           &none                 &none                 &none       &none                  &none   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS     &kp EQUAL             &mt RIGHT_WIN SQT
+&kp LEFT_SHIFT         &kp LS(LC(NUMBER_1))  &kp LC(LS(NUMBER_2))  &none       &none        &none     &none   &kp GRAVE         &kp BACKSLASH      &kp COMMA     &kp PERIOD            &mt RIGHT_SHIFT SLASH
+&kp LEFT_ALT           &none                 &none                 &trans      &trans       &trans    &trans  &trans                                                                   &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&scroll_up_down>;
