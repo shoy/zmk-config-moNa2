@@ -67,10 +67,10 @@
 
         windows {
             bindings = <
-&mt RCTRL Q     &trans     &trans  &lt 7 R           &trans                                                &trans       &lt 7 U  &trans  &trans  &mt RCTRL P
-&mt LEFT_WIN A  &trans     &trans  &lt 7 F           &trans                               &trans           &trans       &lt 7 J  &trans  &trans  &mt RIGHT_WIN SEMI
-&trans          &trans     &trans  &lt 7 V           &trans           &kp LC(LA(A))       &trans           &trans       &lt 7 M  &trans  &trans  &trans
-&trans          &kp LCTRL  &trans  &lt 3 LANGUAGE_1  &mt LCTRL SPACE  &lt 5 LANGUAGE_2    &lt 5 BACKSPACE  &lt 3 ENTER                           &trans
+&mt RCTRL Q     &trans     &trans  &lt 0 R           &trans                                                &trans       &lt 0 U  &trans  &trans  &mt RCTRL P
+&mt LEFT_WIN A  &trans     &trans  &lt 0 F           &trans                               &trans           &trans       &lt 0 J  &trans  &trans  &mt RIGHT_WIN SEMI
+&trans          &trans     &trans  &lt 0 V           &trans           &kp LC(LA(A))       &trans           &trans       &lt 0 M  &trans  &trans  &trans
+&trans          &kp LCTRL  &trans  &lt 0 LANGUAGE_1  &mt LCTRL SPACE  &lt 0 LANGUAGE_2    &lt 0 BACKSPACE  &lt 0 ENTER                           &trans
             >;
 
             sensor-bindings =
@@ -91,10 +91,10 @@
 
         signs_win {
             bindings = <
-&mt RCTRL EXCLAMATION  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &mt RCTRL RIGHT_PARENTHESIS
-&kp LEFT_COMMAND       &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &mt RIGHT_WIN SQT
-&trans                 &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans                 &trans  &trans  &trans  &trans  &trans    &trans  &trans                          &trans
+&mt RCTRL EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR  &kp PERCENT                    &kp CARET         &kp AMPERSAND      &kp ASTERISK  &kp LEFT_PARENTHESIS  &mt RCTRL RIGHT_PARENTHESIS
+&kp LEFT_WIN           &none        &none     &none       &none                  &none   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS     &kp EQUAL             &mt RIGHT_WIN SQT
+&kp LEFT_SHIFT         &none        &none     &none       &none        &none     &none   &kp GRAVE         &kp BACKSLASH      &kp COMMA     &kp PERIOD            &mt RIGHT_SHIFT SLASH
+&kp LEFT_ALT           &none        &none     &trans      &trans       &trans    &trans  &trans                                                                   &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -113,10 +113,10 @@
 
         numbers_win {
             bindings = <
-&mt LCTRL PERIOD    &trans  &trans  &trans  &trans                    &trans     &trans  &trans  &trans         &mt RCTRL ESCAPE
-&mt LEFT_WIN COMMA  &trans  &trans  &trans  &trans            &trans  &kp LC(A)  &trans  &trans  &trans         &mt RIGHT_COMMAND DELETE
-&trans              &trans  &trans  &trans  &trans  &trans    &trans  &kp LC(E)  &trans  &trans  &kp LS(LG(S))  &trans
-&trans              &trans  &trans  &trans  &trans  &trans    &trans  &trans                                    &trans
+&mt LCTRL PERIOD            &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS                    &none      &kp PAGE_DOWN        &kp UP_ARROW     &kp PAGE_UP    &mt RCTRL ESCAPE
+&mt LEFT_WIN COMMA          &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SLASH            &none   &kp LC(A)  &kp LEFT             &kp DOWN         &kp RIGHT      &mt RIGHT_WIN DELETE
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp COLON  &none     &none   &kp LC(E)  &kp LG(PRINTSCREEN)  &kp PRINTSCREEN  &kp LS(LG(S))  &kp RSHIFT
+&kp ENTER                   &none            &none            &trans           &trans     &trans    &trans  &trans                                                          &kp RIGHT_ALT
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -135,10 +135,10 @@
 
         functions_win {
             bindings = <
-&trans     &trans  &trans  &trans  &trans                          &trans         &trans  &trans     &trans  &trans
-&trans     &trans  &trans  &trans  &trans            &trans        &trans         &trans  &kp LC(W)  &trans  &trans
-&trans     &trans  &trans  &trans  &trans  &to 0     &trans        &trans         &trans  &trans     &trans  &trans
-&kp LG(L)  &trans  &trans  &trans  &trans  &trans    &kp LA(LEFT)  &kp LA(RIGHT)                             &trans
+&kp ESCAPE      &kp F7  &kp F8  &kp F9  &kp F10                          &none          &none  &none      &none            &none
+&kp TAB         &kp F4  &kp F5  &kp F6  &kp F11            &none         &none          &none  &kp LC(W)  &kp LS(LC(TAB))  &kp LC(TAB)
+&kp LEFT_SHIFT  &kp F1  &kp F2  &kp F3  &kp F12  &to 0     &none         &none          &none  &none      &none            &none
+&kp LG(L)       &none   &none   &trans  &trans   &trans    &kp LA(LEFT)  &kp LA(RIGHT)                                     &none
             >;
 
             sensor-bindings = <&scroll_up_down>;
