@@ -69,8 +69,8 @@
 
         mac {
             bindings = <
-&kp Q             &kp W         &kp E      &lt 6 R      &kp T                                                       &kp Y        &lt 6 U  &kp I     &kp O     &kp P
-&kp A             &kp S         &kp D      &lt 6 F      &kp G                                      &mo 9            &kp H        &lt 6 J  &kp K     &kp L     &kp SEMI
+&kp Q             &kp W         &kp E      &lt 6 R      &kp T                                                       &kp Y        &lt 6 U  &kp I     &lt 6 O   &kp P
+&kp A             &kp S         &kp D      &lt 6 F      &kp G                                      &mo 9            &kp H        &lt 6 J  &kp K     &lt 6 L   &kp SEMI
 &mt LEFT_SHIFT Z  &kp X         &kp C      &lt 6 V      &kp B                   &none              &none            &kp N        &lt 6 M  &mkp MB1  &mkp MB2  &kp RIGHT_SHIFT
 &kp LEFT_ALT      &kp LEFT_WIN  &kp LCTRL  &lt 2 LANG1  &mt LEFT_COMMAND SPACE  &lt 4 LC(LANG2)    &lt 4 BACKSPACE  &lt 2 ENTER                               &kp RIGHT_ALT
             >;
@@ -82,10 +82,10 @@
 
         windows {
             bindings = <
-&trans  &trans     &trans        &lt 7 R           &trans                                                &trans       &lt 7 U  &trans  &trans  &trans
-&trans  &trans     &trans        &lt 7 F           &trans                               &trans           &trans       &lt 7 J  &trans  &trans  &trans
-&trans  &trans     &trans        &lt 7 V           &trans           &trans              &trans           &trans       &lt 7 M  &trans  &trans  &trans
-&trans  &kp LCTRL  &kp LEFT_WIN  &lt 3 LANGUAGE_1  &mt LCTRL SPACE  &lt 5 LANGUAGE_2    &lt 5 BACKSPACE  &lt 3 ENTER                           &trans
+&trans  &trans     &trans        &lt 7 R           &trans                                                &trans       &lt 7 U  &trans  &lt 7 O  &trans
+&trans  &trans     &trans        &lt 7 F           &trans                               &trans           &trans       &lt 7 J  &trans  &lt 7 L  &trans
+&trans  &trans     &trans        &lt 7 V           &trans           &trans              &trans           &trans       &lt 7 M  &trans  &trans   &trans
+&trans  &kp LCTRL  &kp LEFT_WIN  &lt 3 LANGUAGE_1  &mt LCTRL SPACE  &lt 5 LANGUAGE_2    &lt 5 BACKSPACE  &lt 3 ENTER                            &trans
             >;
 
             sensor-bindings =
@@ -139,10 +139,10 @@
 
         functions {
             bindings = <
-&kp ESCAPE      &kp F7  &kp F8  &kp F9  &kp F10                                         &none                  &none  &none      &none            &none
-&kp TAB         &kp F4  &kp F5  &kp F6  &kp F11                   &kp LC(LG(Q))         &none                  &none  &kp LG(W)  &kp LS(LC(TAB))  &kp LC(TAB)
-&kp LEFT_SHIFT  &kp F1  &kp F2  &kp F3  &kp F12  &kp LG(LA(A))    &none                 &none                  &none  &mkp MB3   &kp LG(W)        &mt RIGHT_SHIFT LG(M)
-&trans          &trans  &trans  &trans  &trans   &trans           &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)                                     &kp LG(LS(T))
+&kp ESCAPE      &kp F7  &kp F8  &kp F9  &kp F10                                         &none                  &none          &none      &none            &none
+&kp TAB         &kp F4  &kp F5  &kp F6  &kp F11                   &kp LC(LG(Q))         &none                  &kp LG(LS(T))  &kp LG(W)  &kp LS(LC(TAB))  &kp LC(TAB)
+&kp LEFT_SHIFT  &kp F1  &kp F2  &kp F3  &kp F12  &kp LG(LA(A))    &none                 &none                  &kp LG(R)      &mkp MB3   &kp LG(W)        &mt RIGHT_SHIFT LG(M)
+&trans          &trans  &trans  &trans  &trans   &trans           &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)                                             &none
             >;
 
             sensor-bindings = <&scroll_up_down>;
@@ -150,10 +150,10 @@
 
         functions_win {
             bindings = <
-&kp ESCAPE      &kp F7  &kp F8  &kp F9  &kp F10                                 &none          &none  &none      &none            &none
-&kp TAB         &kp F4  &kp F5  &kp F6  &kp F11                   &kp LG(L)     &none          &none  &kp LC(W)  &kp LS(LC(TAB))  &kp LC(TAB)
-&kp LEFT_SHIFT  &kp F1  &kp F2  &kp F3  &kp F12  &kp LC(LA(A))    &none         &none          &none  &mkp MB3   &kp LA(F4)       &mt RIGHT_SHIFT LG(DOWN)
-&trans          &trans  &trans  &trans  &trans   &trans           &kp LA(LEFT)  &kp LA(RIGHT)                                     &kp LC(LS(T))
+&kp ESCAPE      &kp F7  &kp F8  &kp F9  &kp F10                                 &none          &none          &none      &none            &none
+&kp TAB         &kp F4  &kp F5  &kp F6  &kp F11                   &kp LG(L)     &none          &kp LS(LC(T))  &kp LC(W)  &kp LS(LC(TAB))  &kp LC(TAB)
+&kp LEFT_SHIFT  &kp F1  &kp F2  &kp F3  &kp F12  &kp LC(LA(A))    &none         &none          &kp LC(R)      &mkp MB3   &kp LA(F4)       &mt RIGHT_SHIFT LG(DOWN)
+&trans          &trans  &trans  &trans  &trans   &trans           &kp LA(LEFT)  &kp LA(RIGHT)                                             &none
             >;
 
             sensor-bindings = <&scroll_up_down>;
