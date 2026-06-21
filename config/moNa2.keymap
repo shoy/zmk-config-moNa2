@@ -22,6 +22,13 @@
     combos { compatible = "zmk,combos"; };
 
     macros {
+        // to_layer_0: to_layer_0 {
+        //    compatible = "zmk,behavior-macro-one-param";
+        //    #binding-cells = <1>;
+        //    bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
+        //    label = "TO_LAYER_0";
+        // };
+
         // Connect to BLE profile 0 (Mac) and switch to layer 0 (Mac layout)
         bt_mac: bt_profile_mac {
             compatible = "zmk,behavior-macro";
@@ -37,14 +44,14 @@
     };
 
     behaviors {
-        lt_to_layer_0: lt_to_layer_0 {
-            compatible = "zmk,behavior-hold-tap";
-            label = "LAYER_TAP_TO_0";
-            bindings = <&mo>, <&to_layer_0>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <200>;
-        };
+        // lt_to_layer_0: lt_to_layer_0 {
+        //    compatible = "zmk,behavior-hold-tap";
+        //    label = "LAYER_TAP_TO_0";
+        //    bindings = <&mo>, <&to_layer_0>;
+        //
+        //    #binding-cells = <2>;
+        //    tapping-term-ms = <200>;
+        //};
 
         scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
             compatible = "zmk,behavior-sensor-rotate";
