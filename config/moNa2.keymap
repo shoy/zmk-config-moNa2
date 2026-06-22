@@ -128,10 +128,10 @@
 
         numbers_win {
             bindings = <
-&mt LCTRL PERIOD         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS                        &none         &kp PAGE_DOWN        &kp UP_ARROW     &kp PAGE_UP    &none
-&mt LEFT_WIN COMMA       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH                &none   &kp LC(HOME)  &kp LEFT             &kp DOWN         &kp RIGHT      &kp DELETE
-&mt LEFT_SHIFT NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COLON      &none     &none   &kp LC(END)   &kp LC(PRINTSCREEN)  &kp PRINTSCREEN  &kp LS(LG(S))  &trans
-&trans                   &trans        &trans        &kp ENTER     &kp BACKSPACE  &trans    &trans  &trans                                                             &trans
+&mt LCTRL PERIOD         &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp MINUS                        &none     &kp PAGE_DOWN        &kp UP_ARROW     &kp PAGE_UP    &none
+&mt LEFT_WIN COMMA       &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH                &none   &kp HOME  &kp LEFT             &kp DOWN         &kp RIGHT      &kp DELETE
+&mt LEFT_SHIFT NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COLON      &none     &none   &kp END   &kp LC(PRINTSCREEN)  &kp PRINTSCREEN  &kp LS(LG(S))  &trans
+&trans                   &trans        &trans        &kp ENTER     &kp BACKSPACE  &trans    &trans  &trans                                                         &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
