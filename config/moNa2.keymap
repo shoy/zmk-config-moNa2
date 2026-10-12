@@ -178,10 +178,10 @@
 
         common {
             bindings = <
-&none  &none  &none  &none  &none                  &bt_mac  &bt_win_work  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&none  &none  &none  &none  &none           &none  &to 0    &to 1         &none         &none         &none
-&none  &none  &none  &none  &none  &none    &none  &none    &none         &none         &none         &none
-&none  &none  &none  &none  &none  &none    &none  &none                                              &bt BT_CLR_ALL
+&none  &none  &none  &none  &none                       &bt_mac  &bt_win_work  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&none  &none  &none  &none  &none           &none       &to 0    &to 1         &none         &none         &none
+&none  &none  &none  &none  &none  &none    &none       &none    &none         &none         &none         &none
+&none  &none  &none  &none  &none  &none    &sys_reset  &none                                              &bt BT_CLR_ALL
             >;
         };
     };
