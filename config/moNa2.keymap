@@ -28,8 +28,8 @@
         //    bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
         //    label = "TO_LAYER_0";
         // };
-
         // Connect to BLE profile 0 (Mac) and switch to layer 0 (Mac layout)
+
         bt_mac: bt_profile_mac {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -37,6 +37,7 @@
         };
 
         // Connect to BLE profile 1 (Windows for work) and switch to layer 1 (Windows layout)
+
         bt_win_work: bt_profile_win_work {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -44,6 +45,7 @@
         };
 
         // Connect to BLE profile 2 (iPad mini) and switch to layer 0 (Mac layout)
+
         bt_ipadmini: bt_profile_ipadmini {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -83,10 +85,10 @@
 
         mac {
             bindings = <
-&kp Q             &lt 6 W       &kp E      &lt 6 R      &kp T                                                       &kp Y        &lt 6 U  &kp I     &lt 6 O   &mt RIGHT_CONTROL P
-&kp A             &lt 6 S       &kp D      &lt 6 F      &kp G                                      &mo 9            &kp H        &lt 6 J  &kp K     &lt 6 L   &mt RIGHT_COMMAND SEMI
-&mt LEFT_SHIFT Z  &lt 6 X       &kp C      &lt 6 V      &kp B                   &none              &none            &kp N        &lt 6 M  &mkp MB1  &mkp MB2  &kp RIGHT_SHIFT
-&kp LEFT_ALT      &kp LEFT_WIN  &kp LCTRL  &lt 2 LANG1  &mt LEFT_COMMAND SPACE  &lt 4 LC(LANG2)    &lt 4 BACKSPACE  &lt 2 ENTER                               &kp RIGHT_ALT
+&kp Q             &lt 6 W       &kp E      &lt 6 R      &kp T                                                   &kp Y        &lt 6 U  &kp I     &lt 6 O   &mt RIGHT_CONTROL P
+&kp A             &lt 6 S       &kp D      &lt 6 F      &kp G                                  &mo 9            &kp H        &lt 6 J  &kp K     &lt 6 L   &mt RIGHT_COMMAND SEMI
+&mt LEFT_SHIFT Z  &lt 6 X       &kp C      &lt 6 V      &kp B                   &none          &none            &kp N        &lt 6 M  &mkp MB1  &mkp MB2  &kp RIGHT_SHIFT
+&kp LEFT_ALT      &kp LEFT_WIN  &kp LCTRL  &lt 2 LANG1  &mt LEFT_COMMAND SPACE  &lt 4 LANG2    &lt 4 BACKSPACE  &lt 2 ENTER                               &kp RIGHT_ALT
             >;
 
             sensor-bindings =
@@ -155,7 +157,7 @@
             bindings = <
 &kp ESCAPE      &kp F7  &kp F8  &kp F9  &kp F10                                         &kp LC(E)              &none          &none      &none            &kp LC(UP_ARROW)
 &kp TAB         &kp F4  &kp F5  &kp F6  &kp F11                   &kp LC(LG(Q))         &none                  &kp LG(LS(T))  &kp LG(W)  &kp LS(LC(TAB))  &kp LC(TAB)
-&kp LEFT_SHIFT  &kp F1  &kp F2  &kp F3  &kp F12  &kp LG(LA(A))    &none                 &kp LG(V)              &kp LG(R)      &mkp MB3   &kp LG(W)        &mt RIGHT_SHIFT LG(M)
+&kp LEFT_SHIFT  &kp F1  &kp F2  &kp F3  &kp F12  &kp LG(LA(A))    &none                 &kp LG(V)              &kp LG(R)      &mkp MB3   &kp LG(W)        &mt (RIGHT_SHIFT) LG(M)
 &trans          &trans  &trans  &trans  &trans   &trans           &kp LG(LEFT_BRACKET)  &kp LG(RIGHT_BRACKET)                                             &trans
             >;
 
@@ -166,7 +168,7 @@
             bindings = <
 &kp ESCAPE      &kp F7  &kp F8  &kp F9  &kp F10                                 &kp LS(LC(NUMBER_1))  &kp LS(LC(NUMBER_2))  &none      &none            &kp LG(TAB)
 &kp TAB         &kp F4  &kp F5  &kp F6  &kp F11                   &kp LG(L)     &none                 &kp LS(LC(T))         &kp LC(W)  &kp LS(LC(TAB))  &kp LC(TAB)
-&kp LEFT_SHIFT  &kp F1  &kp F2  &kp F3  &kp F12  &kp LC(LA(A))    &none         &kp LC(V)             &kp LC(R)             &mkp MB3   &kp LA(F4)       &mt RIGHT_SHIFT LG(DOWN)
+&kp LEFT_SHIFT  &kp F1  &kp F2  &kp F3  &kp F12  &kp LC(LA(A))    &none         &kp LC(V)             &kp LC(R)             &mkp MB3   &kp LA(F4)       &mt (RIGHT_SHIFT) LG(DOWN)
 &trans          &trans  &trans  &trans  &trans   &trans           &kp LA(LEFT)  &kp LA(RIGHT)                                                           &trans
             >;
 
