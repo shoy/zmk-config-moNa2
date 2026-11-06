@@ -28,8 +28,8 @@
         //    bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
         //    label = "TO_LAYER_0";
         // };
-        // Connect to BLE profile 0 (Mac) and switch to layer 0 (Mac layout)
 
+        // Connect to BLE profile 0 (Mac) and switch to layer 0 (Mac layout)
         bt_mac: bt_profile_mac {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -37,11 +37,17 @@
         };
 
         // Connect to BLE profile 1 (Windows for work) and switch to layer 1 (Windows layout)
-
         bt_win_work: bt_profile_win_work {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&bt BT_SEL 1 &to 1>;
+        };
+
+        // Connect to BLE profile 2 (iPad mini) and switch to layer 0 (Mac layout)
+        bt_ipadmini: bt_profile_ipadmini {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 2 &to 0>;
         };
     };
 
